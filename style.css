@@ -153,3 +153,16 @@ events.html page
 .event-price {
     font-size: 22px;
 }
+
+
+/*********************************************************************
+about.html page 
+**********************************************************************/
+
+.association-image {
+    background: url('img/banner/pinceaux_aquarelle_carnet_cmp.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+

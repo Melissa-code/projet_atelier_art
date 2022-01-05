@@ -58,7 +58,7 @@
                             <a href="#" class="nav-link">Evénements</a>
                         </li>
                         <li class="nav-item mr-1">
-                            <a href="#" class="nav-link">Contact</a>
+                            <a href="#contact" class="nav-link">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -227,11 +227,74 @@
             </div>
         </section>
 
+         <!-- Contact section -->
+        <section id="contact" class="row">
+            <!-- Title -->
+            <div class="col-12 py-5">
+                <h2>Contact</h2>
+            </div>
+            
+            <!-- contact form -->
+            <article class="col-12">
+                <form class="container-fluid contact-form p-5 mb-5">
+                    <div class="row justify-content-center mb-3 question">
+                        <div class="col-md text-center">
+                            <p>Des questions ?</p>
+                            <p>Nous sommes ici pour y répondre.</p>
+                        </div>
+                    </div>
 
+                    <div class="row mb-3">
+                        <!-- name -->
+                        <div class="col-md pb-3 pb-md-1">
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Nom *">
+                        </div>
+                        <!-- email -->
+                        <div class="col-md">
+                            <input type="email" name="email" id="email" class="form-control" placeholder="E-mail *">
+                        </div>
+                    </div>
 
-       
-        <!-- Constact section -->
-        <section id="contact">contact</section>
+                    <div class="row mb-3">
+                        <!-- firstname -->
+                        <div class="col-md pb-3 pb-md-1">
+                            <input type="text" name="firstname" id="firstname" class="form-control" placeholder="Prénom *">
+                        </div>
+                        <!-- phone number -->
+                        <div class="col-md">
+                            <input type="text" name="phoneNumber" id="phoneNumber" class="form-control" placeholder="Téléphone *">
+                        </div>
+                    </div>
+
+                    <!-- select menu object of the message -->
+                    <div class="row mb-3 select-menu">
+                        <div class="col">
+                            <select class="form-select selector" id="floatingSelectGrid" aria-label="Floating label select example" style="size:20%">
+                                <option selected>Objet du message *</option>
+                                <option value="1">Obtenir des informations</option>
+                                <option value="2">Inscription à un cours</option>
+                                <option value="3">Faire une réclamation</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- textarea -->
+                    <div class="row mb-3">
+                        <div class="col">
+                            <textarea class="form-control" name="message" id="message" rows="5" placeholder="Message *"></textarea>
+                        </div>
+                    </div>
+
+                    <p class="float-right required-fields">* champs requis</p>
+
+                    <!-- Button send -->
+                    <input type="submit" value="Envoyer" class="btn btn-block btn-lg text-white button-send">
+                </form>
+            </article>
+
+            
+        </section>
+        
     </main>
 
     <!-- Footer -->

@@ -95,3 +95,15 @@ h3 {
     background-color: #E5E5E5;
     border: 2px solid #14213D;
 }
+
+/* Contact section */ 
+
+.contact-form {
+    width: 80%;
+    background-color: #FCA311;
+    border-radius: 10px;
+}
+
+.button-send {
+    background-color: #14213D;
+}

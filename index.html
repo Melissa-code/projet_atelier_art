@@ -22,14 +22,73 @@
 </head>
 
 <body>
-    
+
     <!-- Header -->
-    <header id="top">header</header>
+    <header id="top">
+        <!-- Navigation bar -->
+        <nav class="navbar navbar-expand-md navbar-dark" id="main-navbar">
+            <div class="container">
+
+                <!-- Logo -->
+                <div id="logo">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="img/logo/AtelierLogo.svg" style="height: 140px"/>
+                    </a>
+                </div>
+
+                <!-- Button for burger menu-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> 
+                    <!-- icon burger menu -->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Target of the button -->
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mr-1">
+                            <a href="#top" class="nav-link">Accueil</a>
+                        </li>
+                        <li class="nav-item mr-1">
+                            <a href="#" class="nav-link">A propos</a>
+                        </li>
+                        <li class="nav-item mr-1">
+                            <a href="#courses" class="nav-link">Nos cours</a>
+                        </li>
+                        <li class="nav-item mr-1">
+                            <a href="#" class="nav-link">Evénements</a>
+                        </li>
+                        <li class="nav-item mr-1">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>    
+    </header>
+
 
     <!-- Main -->
     <main>
+
         <!-- Slogan section -->
-        <section id="slogan">slogan</section>
+        <section id="slogan" class="row slogan-section">
+            <!-- Background image -->
+            <div class="col-12 img-slogan">
+                <h1>Atelier d'Art</h1>
+                <!-- Slogan -->
+                <div class="slogan text-center">
+                    <blockquote>"Le dessin n'est pas inné, c'est une technique qui s'acquiert."</blockquote>
+                </div>
+                <!-- Link to Courses section -->
+                <a href="#courses"><img src="img/icon/icons8-chevron-bas.png" alt="chevron bas" class="chevron-icon"></a>
+            </div>
+        </section>
+
+
+
+    
+
+
         <!-- Courses section -->
         <section id="courses">cours</section>
         <!-- Projects section -->

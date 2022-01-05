@@ -113,3 +113,15 @@ h3 {
 .address-background {
     background-color: #14213D;
 }
+
+/* footer */ 
+
+footer {
+    background-color: #E5E5E5;
+    font-size: 15px;
+}
+
+.footer-link {
+    color: #14213D;
+    text-decoration: none;
+}

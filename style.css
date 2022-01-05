@@ -166,3 +166,25 @@ about.html page
     height: 60vh;
 }
 
+.association-image-button {
+    background-color: #14213D;
+    border: 3px solid #FCA311;
+    border-radius: 10px;
+ }
+ 
+ .association-teacher-text {
+     line-height: 20px;
+ }
+
+ /* modal */ 
+
+.teacher-photo {
+    background-color: #FCA311;
+}
+
+.teacher-photo-btn {
+    background-color: #14213D;
+    border: 3px solid #FCA311;
+    border-radius: 10px;
+    color:White;
+}

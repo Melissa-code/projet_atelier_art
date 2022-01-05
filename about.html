@@ -88,7 +88,19 @@
 
             <!-- Banner Association image -->
             <article class="col-12 association-image">
-                <div class="h-100 row justify-content-center align-items-center"></div>
+                <div class="h-100 row justify-content-center align-items-center">
+                    <div class="col-6"></div>
+                    <div class="col-6">
+                        <div class="h-100 row justify-content-center align-items-center">
+                            <div class="col-6">
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn text-white association-image-button" data-toggle="modal" data-target="#teacherModal">
+                                    Photo du professeur 
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </article>
 
             <!-- Teacher presentation -->
@@ -122,6 +134,39 @@
             </div>
         </div>
     </footer>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="teacherModal" tabindex="-1" role="dialog" aria-labelledby="teacherModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <!-- Modal header -->
+            <div class="row justify-content-center pl-3 m-0 modal-header">
+                <div class="col-11">
+                    <div class="row justify-content-center">
+                        <h5 class="modal-title" id="teacherModalLabel">Jeanne</h5>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            </div>
+            <!-- Modal body -->
+            <div class="row modal-body m-0 text-center teacher-photo">
+                <div class="col">
+                <img src="img/banner/photo_prof_dessin_cmp.jpg" alt="professeur" style="height: 300px; width: 300px;">
+            </div>
+            </div>
+            <!-- Modal footer -->
+            <div class="row m-0 modal-footer">
+                <button type="button" class="btn btn-secondary teacher-photo-btn" data-dismiss="modal">Fermer</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
 
 
     <!-- JQuery Bootstrap 4 -->

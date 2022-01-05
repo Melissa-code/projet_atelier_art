@@ -12,6 +12,7 @@ body {
     font-size: 22px;
 }
 
+
 /* Slogan section */ 
 
 .img-slogan {
@@ -46,6 +47,7 @@ h1 {
 
 
 /* Courses section */ 
+/* Courses carousel article */ 
 
 h2 {
     font-size: 40px;
@@ -67,4 +69,29 @@ h2 {
     background-color: #FCA311;
     border: 4px solid #14213D;
     border-radius: 10px;
+}
+
+/* Schedule and Prices article */ 
+
+.schedule-prices-background {
+    background-color: #FCA311;
+}
+
+h3 {
+    color: #000000;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.schedule-forfaits {
+    display: flex;
+    justify-content: center;
+}
+
+.schedule-prices-card {
+    width: 8rem;
+    height: 4rem;
+    border-radius: 10px;
+    background-color: #E5E5E5;
+    border: 2px solid #14213D;
 }

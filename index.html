@@ -243,7 +243,6 @@
                             <p>Nous sommes ici pour y répondre.</p>
                         </div>
                     </div>
-
                     <div class="row mb-3">
                         <!-- name -->
                         <div class="col-md pb-3 pb-md-1">
@@ -254,7 +253,6 @@
                             <input type="email" name="email" id="email" class="form-control" placeholder="E-mail *">
                         </div>
                     </div>
-
                     <div class="row mb-3">
                         <!-- firstname -->
                         <div class="col-md pb-3 pb-md-1">
@@ -265,8 +263,7 @@
                             <input type="text" name="phoneNumber" id="phoneNumber" class="form-control" placeholder="Téléphone *">
                         </div>
                     </div>
-
-                    <!-- select menu object of the message -->
+                    <!-- select menu for the object of the message -->
                     <div class="row mb-3 select-menu">
                         <div class="col">
                             <select class="form-select selector" id="floatingSelectGrid" aria-label="Floating label select example" style="size:20%">
@@ -277,22 +274,48 @@
                             </select>
                         </div>
                     </div>
-
-                    <!-- textarea -->
+                    <!-- textarea for message -->
                     <div class="row mb-3">
                         <div class="col">
                             <textarea class="form-control" name="message" id="message" rows="5" placeholder="Message *"></textarea>
                         </div>
                     </div>
-
+                    <!-- Required fields instruction -->
                     <p class="float-right required-fields">* champs requis</p>
-
-                    <!-- Button send -->
+                    <!-- Send button -->
                     <input type="submit" value="Envoyer" class="btn btn-block btn-lg text-white button-send">
                 </form>
             </article>
 
-            
+            <!-- Address article -->
+            <article class="col-12 p-5 address-background">
+                <div class="row">
+                    <!-- Address -->
+                    <div class="col-md-6">
+                        <div class="card address-background">
+                            <div class="card-body d-block m-auto">
+                                <h4 class="card-title text-white">Atelier d'Art</h4>
+                                <div class="card-text">
+                                    <p class="text-white">Adresse : 2 rue de l'Atelier, 75018 Paris</p>
+                                    <p class="text-white">Téléphone : 01.43.65.66.87</p>
+                                    <p class="text-white">E-mail : infos-atelier@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Follow us button -->
+                    <div class="col-md-6 d-block m-auto"> 
+                        <div class="text-center">
+                            <button type="button" class="btn btn-light follow-us-button" style="size:50% ">Nous suivre
+                                <a href="https://www.facebook.com/"><img src="img/icon/icons8-facebook.svg" alt="logo Facebook" style="width:30px"></a>
+                                <a href="https://www.instagram.com/"><img src="img/icon/icons8-instagram.svg" alt="logo Instagram" style="width:30px"></a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+
         </section>
         
     </main>

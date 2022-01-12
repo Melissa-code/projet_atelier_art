@@ -98,7 +98,6 @@ h3 {
     border: 2px solid #14213D;
 }
 
-
 /* Contact section */ 
 
 .contact-form {
@@ -199,6 +198,7 @@ media queries
 **********************************************************************/
 
 /* mobile phones */ 
+
 @media screen and (min-device-width: 280px) and (max-device-width: 768px) {
 
     body, #main-navbar, .form-control, .button-send, .follow-us-button {
@@ -230,8 +230,11 @@ media queries
 
 
 /* tablets and computers */
-@media screen and (min-device-width: 769px) {
 
+@media screen and (min-device-width: 769px) {
+    .img-gallery {
+        height: 100%;
+    }
     .address {
         padding-left: 25%;
     }
